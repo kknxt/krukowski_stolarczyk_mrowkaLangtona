@@ -12,9 +12,9 @@ ant initializeAnt(int n, int m, char direction){
     return a;
 }
 
-void move(ant* a, cell* c, int n, int m){
-    if(c->color == true){
-        c->color = false;
+void move(ant* a, bool* c, int n, int m){
+    if(*c == true){
+        *c = false;
         switch (a->direction)
         {
         case 'n':
@@ -43,7 +43,7 @@ void move(ant* a, cell* c, int n, int m){
             break;
         }
     } else {
-        c->color = true;
+        *c = true;
         switch (a->direction)
         {
         case 'n':

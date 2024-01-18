@@ -6,10 +6,12 @@
 #include "ant.h"
 
 
-void initializeGrid(cell ***grid, int n, int m);
+void initializeGrid(bool ***grid, int n, int m);
 
-void printGrid(cell **grid, ant a, int n, int m);
+void printGrid(bool **grid, ant a, int n, int m);
 
-void writeToFile(cell **grid, ant a, int n, int m, char *outputFile);
+void writeToFile(bool **grid, ant a, int n, int m, char *outputFile);
+
+void randomizeGrid(bool **grid, int n, int m, int r);
 
 #endif
