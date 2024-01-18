@@ -6,7 +6,7 @@ Korzystanie z programu:
   -n: liczba kolumn siatki ( > 0, tylko int)
   -m: liczba wierszy siatki ( > 0, tylko int)
   -i: liczba iteracji ruchu mrówki ( >= 0, tylko int)
-  -o: przedrostek plików wynikowych, do których będą zapisane kolejne iteracje ( < 250 znaków)
   -d: kierunek, w którym będzie skierowana mrówka przy rozpoczęciu iteracji (działa tylko dla char-ów n/e/s/w)
   Opcjonalny parametr:
-  -r: procent pól, które losowo będą ustawione jako czarne przy generacji siatki
+  -o: przedrostek plików wynikowych, do których będą zapisane kolejne iteracje ( < 250 znaków)
+  -r: procent pól, które losowo będą ustawione jako czarne przy generacji siatki ( 0 < < 100, tylko int)
